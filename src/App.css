@@ -1,0 +1,68 @@
+.app{
+  position: relative;
+
+}
+
+.boton{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.boton-rojo{
+  width: 120px;
+  height: 60px;
+  border-radius: 15px;
+  border: 1px solid #D61355;
+  background: #F94A29;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+  transition: 0.5s all ease-in-out;
+  cursor: pointer;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.boton-rojo:hover{
+  background-color: white;
+  color: #F94A29;
+  box-shadow:  2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.arrow{
+  margin: 0 20px;
+  color: #F94A29;
+}
+
+.nombre{
+  text-align: center;
+  margin-top: 70px;
+  font-size: 50px;
+  color: #D61355;
+}
+
+.inactivo{
+  display: none;
+}
+
+.mensaje{
+  font-weight: 900;
+  font-size: 108px;
+  color: #D61355;
+  text-align: center;
+ 
+}
+
+.whats{
+  color: green;
+}
+
+.pepegan{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
