@@ -7,13 +7,15 @@ export const Mensaje = () => {
         AOS.init();
       }, [])
   return (
-    <div data-aos="zoom-in" data-aos-duration="3000">
+    <div  className='papa' data-aos="zoom-in" data-aos-duration="3000">
         <div className='pepegan'>
-            <h1 className='mensaje'>¿Quieres ser mi Valentin?</h1>
-            <h3>Adjunte respuesta abajo </h3>
-            <a  href="https://wa.me/584121240464"><i class="fa-brands whats fa-square-whatsapp fa-4x"></i></a>
-
-
+            <h1 className='mensaje'>Feliz cumple Papa, Te amamos Mucho</h1>
+            <div className='icons-1'>
+            <i class="fa-solid fa-cake-candles icon fa-6x"></i>
+            <i class="fa-solid fa-cake-candles icon fa-6x"></i>
+            <i class="fa-solid fa-cake-candles icon fa-6x"></i>
+            </div>
+            
         </div>
     </div>
   )
